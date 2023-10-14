@@ -8,13 +8,15 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author MoaathAlrajab
  */
-public abstract class Human {
+public abstract class Human
+{
     private String name;
-	private String address;
+	protected String address;
 	private short age;
 
 	// constructor that takes only two paras
-	public Human(String name, short age) {
+	public Human(String name, short age)
+	{
 		this.name = name;
 		this.age = age;
 	}
